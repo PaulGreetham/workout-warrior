@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './GainsForm.css';
 
 function GainsForm({ onAdd }) {
     const [date, setDate] = useState('');
