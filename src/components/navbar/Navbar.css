@@ -11,25 +11,24 @@ nav li {
     margin: 0.5rem;
 }
 
-a {
+nav a {
+    color: black;
     display: inline-block;
     width: 10rem;
     text-align: center;
     list-style: none;
     text-decoration: none;
-    border: 3px solid black;
-    border-radius: 1px;
+    border: 3px dotted black;
+    border-radius: 50px;
     padding: 0.8rem;
-    transition: 0.5s;
+    transition: 0.2s;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
 }
 
 a:hover {
-    transition: 0.5rem;
-    color: white;
-    background-color: blue;
-    box-shadow: 8px 8px rgb(201, 44, 109);
-    transform: translateY(-0.15rem);
+    transition: 0.2s;
+    border: 3px solid black;
+    transform: translateY(-0.05rem);
     font-weight: 700;
 }
