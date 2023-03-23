@@ -8,8 +8,8 @@
   width: 18rem;
   margin: 0.5rem;
   padding: 0.5rem;
-  background-color: black;
-  color: white;
+  background-color: yellow;
+  color: black;
   border: none;
   border-radius: 0.25rem;
   cursor: pointer;
@@ -20,8 +20,9 @@
 }
 
 .button:hover {
-  background-color: rgb(0, 0, 0, 0.7);
+  background-color: rgb(255, 255, 0, 0.9);
   transition: 0.2s;
+  transform: translateY(-0.05rem);
 }
 
 .exercise {
@@ -34,8 +35,8 @@
   border: 1px solid #ccc;
   border-radius: 0.25rem;
   font-size: 1rem;
-
   text-align: left;
+  transition: 2s;
 }
 
 .exercise-container h2 {
@@ -44,6 +45,7 @@
   font-size: 3rem;
   font-weight: bold;
   text-transform: capitalize;
+  transition: 2s;
 }
 
 .exercise-container p {
@@ -55,4 +57,5 @@
   padding: 1.5rem;
   margin: 1rem 16rem;
   line-height: 1.5;
+  transition: 2s;
 }

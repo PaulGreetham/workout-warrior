@@ -10,7 +10,7 @@ import Navbar from './components/navbar/Navbar';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="app-container">
         <Navbar />
         <h1>Workout Warrior</h1>
         <h2>Let Workout Warrior inspire your workouts and track your gains</h2>
