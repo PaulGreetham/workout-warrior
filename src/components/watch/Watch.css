@@ -1,0 +1,59 @@
+.watch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+input[type='text'] {
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+button[type='submit'] {
+  font-size: 1.25rem;
+  width: 6rem;
+  padding: 0.5rem;
+  background-color: yellow;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  width: calc(42% - 1rem);
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+
+.video h3 {
+  font-size: 1rem;
+}
+
+.video p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.video a {
+  font-size: 0.5rem;
+  color: #007bff;
+  text-decoration: none;
+}

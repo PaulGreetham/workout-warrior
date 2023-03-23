@@ -17,6 +17,8 @@
   font-weight: bold;
   text-transform: capitalize;
   transition: 0.2s;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1px;
 }
 
 .button:hover {
@@ -37,19 +39,23 @@
   font-size: 1rem;
   text-align: left;
   transition: 2s;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1px;
 }
 
 .exercise-container h2 {
   display: flex;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   text-transform: capitalize;
   transition: 2s;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1px;
 }
 
 .exercise-container p {
-  font-size: 1rem;
+  font-size: 1.75rem;
   margin: 0.75rem 0;
   text-transform: capitalize;
   display: flex;
@@ -58,4 +64,6 @@
   margin: 1rem 16rem;
   line-height: 1.5;
   transition: 2s;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1px;
 }

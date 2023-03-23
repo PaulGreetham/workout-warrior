@@ -12,8 +12,8 @@ function App() {
     <Router>
       <div className="app-container">
         <Navbar />
-        <h1>Workout Warrior</h1>
-        <h2>Let Workout Warrior inspire your workouts and track your gains</h2>
+        <h5>Workout Warrior</h5>
+        <h6>Log workouts & be inspired</h6>
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/loggains" element={<LogGains />} />
