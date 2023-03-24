@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Inspiration.css';
 
-const api_key = 'f2aedf2b85msh4b5764021d9e69fp1d6d18jsn3369b176cba2';
-const api_host = 'exercises-by-api-ninjas.p.rapidapi.com';
+const api_key = process.env.REACT_APP_EXERCISES_API_KEY;
+const api_host = process.env.REACT_APP_EXERCISES_API_HOST;
 
 const fetchExerciseByMuscle = async (muscle) => {
   const url = `https://${api_host}/v1/exercises?muscle=${muscle}`;

@@ -4,20 +4,21 @@
   align-items: center;
 }
 
-form {
+.watch-container form {
   margin-bottom: 2rem;
 }
 
-input[type='text'] {
+.watch-container input[type='text'] {
   font-size: 1.25rem;
   padding: 0.5rem;
   margin-right: 1rem;
   border: 2px solid #ccc;
   border-radius: 5px;
   outline: none;
+  width: 24rem;
 }
 
-button[type='submit'] {
+.watch-container button[type='submit'] {
   font-size: 1.25rem;
   width: 6rem;
   padding: 0.5rem;
@@ -26,6 +27,13 @@ button[type='submit'] {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-weight: 700;
+}
+
+.watch-container button[type='submit']:hover {
+  background-color: rgb(255, 255, 0, 0.9);
+  transform: translateY(-0.05rem);
+  font-weight: 700;
 }
 
 .videos {
@@ -45,6 +53,8 @@ button[type='submit'] {
 
 .video h3 {
   font-size: 1rem;
+  padding: 1rem;
+
 }
 
 .video p {

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './Watch.css';
 
-const apiKey = 'AIzaSyBkfJ9jqgLsKwesRTOI4oREvpkwFpTZ0R8';
+const apiKey = process.env.REACT_APP_YOUTUBE_API_KEY;
 
 const Watch = () => {
   const [query, setQuery] = useState('');
@@ -24,9 +24,9 @@ const Watch = () => {
           type="text"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="Search for videos"
+          placeholder="Search for workout videos"
         />
-        <button type="submit">Search</button>
+        <button type="submit">GAINS</button>
       </form>
       <div className="videos">
         {videos.map((video) => (

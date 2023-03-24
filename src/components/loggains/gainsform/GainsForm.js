@@ -61,7 +61,7 @@ function GainsForm({ onAdd }) {
             <label className="gains-form__label" htmlFor="sets">Reps:</label>
             <input className="gains-form__input" type="number" id="reps" value={reps} onChange={handleRepsChange} />
           </div>
-          <button className="gains-form__submit" type="submit">Add</button>
+          <button className="gains-form__submit" type="submit">ADD GAINS</button>
         </form>
     )
 }
