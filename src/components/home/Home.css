@@ -9,3 +9,19 @@
   padding: 5rem;
   line-height: 1.5;
 }
+
+@media only screen and (max-width: 860px) {
+  .app-container h3 {
+    font-size: 2.5rem;
+    padding: 2rem;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (max-width: 604px) {
+  .app-container h3 {
+    font-size: 1.25rem;
+    padding: 3rem;
+    line-height: 1.5;
+  }
+}

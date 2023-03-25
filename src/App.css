@@ -51,3 +51,19 @@ body {
   padding: 5rem;
   line-height: 1.5;
 }
+
+@media only screen and (max-width: 604px) {
+  .app-container h5 {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .app-container h6 {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
