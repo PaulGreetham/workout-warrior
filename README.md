@@ -8,7 +8,8 @@ Workout Warrior is a React app that allows users to get exercise inspiration, lo
 
 The concept behind Workout Warrior is to create an app that offers a full range of fitness features, from exercise inspiration to video tutorials, all in one place. The app is intended to be user-friendly and easy to navigate, so that users can quickly find the information they need to achieve their fitness goals.
 
-## How to Use
+## How to Use
+
 The app is simple to use and navigate. Here are the main features and how to access them:
 
 * Exercise Inspiration - To access exercise inspiration, go to the Inspiration page. Click on the muscle group you want to work on, and the app will display a list of exercises that target that muscle group.
