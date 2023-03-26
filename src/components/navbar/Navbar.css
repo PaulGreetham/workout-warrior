@@ -53,15 +53,16 @@ a:hover {
 @media only screen and (max-width: 604px) {
   nav ul {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     list-style: none;
     padding: 1rem;
-    font-size: 0.5rem;
     margin: 0;
   }
 
   nav a {
-    width: 3rem;
+    font-size: 1.25rem;
+    width: 14rem;
   }
 }

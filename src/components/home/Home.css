@@ -8,20 +8,23 @@
   font-size: 2rem;
   padding: 5rem;
   line-height: 1.5;
+  transition: 0.2s;
 }
 
 @media only screen and (max-width: 860px) {
   .app-container h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 2rem;
     line-height: 1.5;
+    transition: 0.2s;
   }
 }
 
 @media only screen and (max-width: 604px) {
   .app-container h3 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     padding: 3rem;
     line-height: 1.5;
+    transition: 0.2s;
   }
 }
