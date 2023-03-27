@@ -14,17 +14,19 @@
 @media only screen and (max-width: 860px) {
   .app-container h3 {
     font-size: 2rem;
-    padding: 2rem;
+    padding-top: 2rem;
     line-height: 1.5;
     transition: 0.2s;
+    margin-bottom: 0;
   }
 }
 
 @media only screen and (max-width: 604px) {
   .app-container h3 {
     font-size: 1.5rem;
-    padding: 3rem;
+    padding-top: 3rem;
     line-height: 1.5;
     transition: 0.2s;
+    margin-bottom: 0;
   }
 }
