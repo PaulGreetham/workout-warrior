@@ -1,6 +1,8 @@
 .watch-container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -68,8 +70,34 @@
   text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
+  .watch-container {
+    width: 100%;
+  }
 
+  .video {
+    width: 18rem;
+    height: auto;
+    margin: 0.2rem;
+  }
+
+  .videos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+  }
+
+  .video iframe {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    width: calc(100% - 0rem);
+    padding: 0;
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 604px) {
@@ -90,7 +118,7 @@
   }
 
   .video {
-    width: 20rem;
+    width: 18rem;
     height: auto;
     margin: 0.2rem;
   }
